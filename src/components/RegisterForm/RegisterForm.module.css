@@ -1,0 +1,55 @@
+.section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 24px 0;
+}
+.registration__title {
+  font-size: 32px;
+  margin: 0;
+}
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  padding: 16px;
+}
+.registration__label {
+  font-family: 'Patrick Hand';
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 20px;
+  line-height: 1.27;
+  padding-bottom: 24px;
+}
+.registration__input {
+  display: inline-flex;
+  font-family: 'Patrick Hand';
+  font-size: 18px;
+  line-height: 1.33;
+}
+.registration__button {
+  font-weight: 700;
+  padding: 12px 0;
+  font: inherit;
+  font-size: 24px;
+  line-height: 1.27;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  box-shadow: 2px 1px 2px rgb(67, 66, 66);
+  transition: all 0.3s ease;
+}
+.registration__button:hover,
+.registration__button:focus {
+  transform: scale(1.1);
+  background-color: #c5dde8;
+}

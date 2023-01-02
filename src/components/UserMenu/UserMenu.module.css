@@ -1,0 +1,55 @@
+.nav_link {
+  color: #2c2121;
+  font-family: 'Patrick Hand';
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+  }
+}
+.login {
+  display: flex;
+  gap: 4px;
+}
+
+.login__user {
+  display: flex;
+  flex-direction: column;
+  color: var(--primary-text-colortext-color);
+  font-family: 'Patrick Hand';
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 28px;
+  }
+}
+.login__button {
+    font-family: 'Patrick Hand';
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    align-self: center;
+    cursor: pointer;
+  
+    box-shadow: 2px 1px 2px rgb(67, 66, 66);
+    transition: all 0.3s ease;
+}
+.login__button:hover,
+.login__button:focus {
+  transform: scale(1.1);
+  background-color: #c5dde8;
+}

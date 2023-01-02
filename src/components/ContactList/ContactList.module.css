@@ -1,0 +1,25 @@
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.contactsList__title {
+  font-size: 24px;
+  margin: 0;
+}
+.contactsList__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 335px;
+}
+.contactsList__item {
+  width: 335px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  line-height: 1.27;
+}

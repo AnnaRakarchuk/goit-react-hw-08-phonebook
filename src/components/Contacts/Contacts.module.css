@@ -1,0 +1,31 @@
+.contactsList__wrap {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+}
+.contactsList__name{
+  margin: 0;
+}
+.contactsList__button {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  content: '';
+  border: none;
+  align-self: baseline;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+
+  box-shadow: 2px 1px 2px rgb(67, 66, 66);
+  transition: all 0.3s ease;
+}
+.contactsList__button:hover,
+.contactsList__button:focus {
+  transform: scale(1.1);
+  background-color: #eecfba;
+}
