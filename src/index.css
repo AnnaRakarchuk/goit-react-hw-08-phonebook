@@ -7,9 +7,75 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(45deg, #eecfba, #c5dde8);
+  min-height: 100vh;
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 12px;
+  align-self: center;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 480px;
+}
+
+.section {
+  padding-bottom: 48px;
+}
+
+.phonebook {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* Home page */
+
+.home__wrap{
+  height: 50vh;
+  background-image: url(../src/image/favpng_reverse-telephone-directory-address-book-telephone-number-clip-art.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: top;
+    background-position-x: 50%;
+}
+.home {
+  text-align: center;
+  font-size: 24px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
 }
